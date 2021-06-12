@@ -17,6 +17,8 @@ Point and click - hold left mouse button and point in the world with cursor to m
 
 WASD - walk around
 
+F - eat sheep/ram in front of you
+
 Shift - dash
 
 Space - jump
