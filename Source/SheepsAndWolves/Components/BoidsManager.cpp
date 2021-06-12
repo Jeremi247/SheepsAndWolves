@@ -4,8 +4,6 @@
 #include "../SheepsAndWolvesGameMode.h"
 #include "DrawDebugHelpers.h"
 
-#pragma optimize("",off)
-
 UBoidsManager::UBoidsManager()
     : BoidSpawnHeight( 50.f )
     , RaycastSearchLength( 100.f )
@@ -37,7 +35,6 @@ void UBoidsManager::TickComponent( float DeltaTime, enum ELevelTick TickType, FA
 {
     Super::TickComponent( DeltaTime, TickType, ThisTickFunction );
 
-    //TO DO: Add pooling mechanism to not respawn boids but to reuse them
     RefillBoids();
 }
 

@@ -1,4 +1,3 @@
-
 #include "HUDRoot.h"
 #include "CooldownDisplay.h"
 #include "Components/VerticalBox.h"

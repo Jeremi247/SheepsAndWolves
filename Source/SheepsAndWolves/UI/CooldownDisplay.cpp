@@ -1,4 +1,3 @@
-
 #include "CooldownDisplay.h"
 
 void UCooldownDisplay::SetCooldownPercent( float cooldown )

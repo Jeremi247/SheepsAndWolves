@@ -7,7 +7,7 @@
 #include <Runtime/Engine/Classes/Kismet/GameplayStatics.h>
 #include "../Components/BoidsManager.h"
 #include "Curves/CurveFloat.h"
-#pragma optimize("",off)
+
 ABoid::ABoid()
 	: Super()
 	, OverlappingObstacles( 0 )

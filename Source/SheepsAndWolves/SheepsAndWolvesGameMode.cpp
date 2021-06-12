@@ -1,5 +1,3 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
-
 #include "SheepsAndWolvesGameMode.h"
 #include "SheepsAndWolvesPlayerController.h"
 #include "SheepsAndWolvesCharacter.h"
